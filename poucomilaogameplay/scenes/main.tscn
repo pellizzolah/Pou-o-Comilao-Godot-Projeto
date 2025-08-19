@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cosufs1uo2mtj"]
+[gd_scene load_steps=8 format=3 uid="uid://cosufs1uo2mtj"]
 
+[ext_resource type="AudioStream" uid="uid://ippbuho4m7p2" path="res://audios/gameaudio.mp3" id="1_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://b3kkuhb3gsmtn" path="res://models/mountain_scenario_low_poly.glb" id="1_o5qli"]
 [ext_resource type="PackedScene" uid="uid://dnhuisef2cr1x" path="res://scenes/pou_player.tscn" id="2_0wfyh"]
 [ext_resource type="FontFile" uid="uid://bfosphlol2fm" path="res://font/Pou-RMR6.ttf" id="3_sugp2"]
@@ -24,6 +25,10 @@ shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_jyhfs")
+
+[node name="gameaudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_jyhfs")
+autoplay = true
 
 [node name="Sketchfab_Scene" parent="." instance=ExtResource("1_o5qli")]
 
