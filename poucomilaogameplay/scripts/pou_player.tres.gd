@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-@export var speed: float = 5.0   # velocidade do player
+@export var speed: float = 3.0   # velocidade do player
 @export var limite_esquerda: float = -5.0
 @export var limite_direita: float = 5.0
 

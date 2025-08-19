@@ -26,14 +26,10 @@ shadow_enabled = true
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_jyhfs")
 
-[node name="gameaudio" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("1_jyhfs")
-autoplay = true
-
 [node name="Sketchfab_Scene" parent="." instance=ExtResource("1_o5qli")]
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.045201, 2.40497, -11.8112)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.045201, 2.72122, -11.8112)
 
 [node name="PouPlayer" parent="." instance=ExtResource("2_0wfyh")]
 transform = Transform3D(-1, 0, 2.23517e-07, 0, 1, 0, -2.23517e-07, 0, -1, -0.0104114, 1.95303, -9.89067)
@@ -57,3 +53,7 @@ offset_bottom = 115.0
 theme_override_fonts/font = ExtResource("3_sugp2")
 theme_override_font_sizes/font_size = 51
 text = "0"
+
+[node name="gameaudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_jyhfs")
+autoplay = true
