@@ -18,7 +18,7 @@ tonemap_mode = 2
 [node name="main" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+transform = Transform3D(-0.604786, 0.767769, 0.211579, -0.703128, -0.639526, 0.310834, 0.373959, 0.0392216, 0.926616, 0, 0, 0)
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
@@ -27,7 +27,7 @@ environment = SubResource("Environment_jyhfs")
 [node name="Sketchfab_Scene" parent="." instance=ExtResource("1_o5qli")]
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866025, 16.2381, 2.45238, -7.29447)
+transform = Transform3D(-0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866025, 14.9878, 2.70911, -5.30231)
 
 [node name="PouPlayer" parent="." instance=ExtResource("2_0wfyh")]
-transform = Transform3D(-0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866025, 15.3865, 1.95303, -5.95192)
+transform = Transform3D(-0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866025, 14.1341, 1.95303, -3.78269)
