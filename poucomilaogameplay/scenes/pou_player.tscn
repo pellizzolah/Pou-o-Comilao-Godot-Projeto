@@ -1,14 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://dnhuisef2cr1x"]
 
+[ext_resource type="Script" uid="uid://c4v2vayxgkjq6" path="res://scripts/pou_player.tres.gd" id="1_ctxb1"]
 [ext_resource type="PackedScene" uid="uid://bf5r2rn3fh0rq" path="res://models/pou.glb" id="1_w4jo2"]
-
-[sub_resource type="GDScript" id="GDScript_w4jo2"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_ctxb1"]
 radius = 0.316082
 
 [node name="PouPlayer" type="CharacterBody3D"]
-script = SubResource("GDScript_w4jo2")
+script = ExtResource("1_ctxb1")
 
 [node name="model" parent="." instance=ExtResource("1_w4jo2")]
 
